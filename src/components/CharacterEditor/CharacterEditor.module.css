@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  isolation: isolate;
 }
 
 .header {
@@ -34,4 +35,12 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.greyBar {
+  position: fixed;
+  bottom: 0;
+  background: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
 }
