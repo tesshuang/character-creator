@@ -1,4 +1,10 @@
 .buttonRow {
   overflow-x: auto;
   white-space: nowrap;
+  /* Use negative margin to set scroll bar to the edge*/
+  margin-left: -22px;
+  margin-right: -22px;
+  margin-bottom: -22px;
+  /* Use positive paddding to add spacing to the buttons*/
+  padding: 22px;
 }
